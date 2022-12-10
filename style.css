@@ -1,0 +1,113 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    left: 650px;
+    top: 250px;
+    position: relative;
+}
+.carcas1{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    left: 70px;
+    top: 50px;
+    border-radius: 100%;
+    position: relative;
+}
+.carcas2{
+    width: 60px;
+    height: 20px;
+    background-color: black;
+    left: 30px;
+    top: -10px;
+    border-radius: 100%;
+    position: relative;
+}
+.wheel1{
+    width: 15px;
+    height: 35px;
+    background-color: black;
+    left: 85px;
+    top: 10px;
+    border-radius: 100%;
+    position: relative;
+}
+.wheel2{
+    width: 15px;
+    height: 35px;
+    background-color: black;
+    left: 130px;
+    top: -25px;
+    border-radius: 100%;
+    position: relative;
+}
+.disk{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    left: 130px;
+    top: -37px;
+    border-radius: 100%;
+    position: relative;
+}
+.disk1{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    left: 82px;
+    top: -57px;
+    border-radius: 100%;
+    position: relative;
+}
+.blade1{
+    width: 100px;
+    height: 5px;
+    background-color: gray;
+    left: 70px;
+    top: -185px;
+    border-radius: 100%;
+    position: relative;
+    animation-name: blade1;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes blade1 {
+0%{
+transform:rotate(0deg);
+}
+100%{
+transform:rotate(360deg);
+}
+}
+.blade2{
+    width: 40px;
+    height: 5px;
+    background-color: gray;
+    left: 20px;
+    top: -140px;
+    border-radius: 100%;
+    position: relative;
+    animation-name: blade2;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes blade2 {
+0%{
+transform:rotate(0deg);
+}
+100%{
+transform:rotate(360deg);
+}
+}
+.window{
+    width: 60px;
+    height: 40px;
+    background-color: skyblue;
+    left: 120px;
+    top: -170px;
+    border-radius: 100%;
+    position: relative;   
+}
